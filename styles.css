@@ -54,7 +54,7 @@ header h1 {
 }
 
 .photo-container {
-    margin-right: 15px; /* 调整右侧外边距，使照片与个人信息之间间距更合理 */
+    margin-right: 50px; /* 调整右侧外边距，使照片与个人信息之间间距更合理 */
 }
 
 #profile-photo {
