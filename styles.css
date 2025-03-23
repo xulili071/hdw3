@@ -7,12 +7,12 @@
 
 body {
     font-family: 'Microsoft YaHei', sans-serif;
-    line-height: 1.6;
+    line-height: 2;
     color: #333;
     background-image: url('bg.jpg'); /* 添加背景图片 */
     background-size: cover; /* 让背景图片覆盖整个页面 */
     background-attachment: fixed; /* 固定背景图片，滚动时不会移动 */
-    min-height: 100vh;
+    min-height: 80vh;
     position: relative;
 }
 
@@ -54,7 +54,7 @@ header h1 {
 }
 
 .photo-container {
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 #profile-photo {
@@ -62,7 +62,7 @@ header h1 {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #27ae60;
+    border: 2px solid #e48d22fb;
 }
 
 .info {
@@ -144,19 +144,19 @@ header h1 {
 /* 模块头部 */
 .module-header {
     margin-bottom: 15px;
-    border-bottom: 2px solid #27ae60;
+    border-bottom: 2px solid #e48d22fb;
     padding-bottom: 10px;
 }
 
 .module-header h3 {
-    color: #2c3e50;
+    color: #e48d22fb;
     display: flex;
     align-items: center;
 }
 
 .module-header h3 i {
     margin-right: 10px;
-    color: #27ae60;
+    color: #e48d22fb;
 }
 
 /* 模块主体 */
@@ -189,7 +189,7 @@ header h1 {
 
 .skill-item i {
     margin-right: 10px;
-    color: #27ae60;
+    color: #e48d22fb;
     font-size: 18px;
 }
 
