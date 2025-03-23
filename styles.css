@@ -12,12 +12,12 @@ body {
     background-image: url('bg.jpg'); /* 添加背景图片 */
     background-size: cover; /* 让背景图片覆盖整个页面 */
     background-attachment: fixed; /* 固定背景图片，滚动时不会移动 */
-    min-height: 80vh;
+    min-height: 90vh; /* 增加最小高度，使页面内容更充实 */
     position: relative;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1100px; /* 调整最大宽度，使内容更紧凑 */
     margin: 0 auto;
     padding: 20px;
 }
@@ -25,7 +25,7 @@ body {
 /* 头部样式 */
 header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px; /* 增加底部外边距，使标题与导航之间有更多空间 */
     padding: 20px 0;
     position: relative;
 }
@@ -33,7 +33,7 @@ header {
 header h1 {
     color: #2c3e50;
     font-size: 28px;
-    margin-bottom: 5px;
+    margin-bottom: 10px; /* 调整底部外边距，使标题与副标题之间间距更合理 */
 }
 
 .subtitle {
@@ -46,15 +46,15 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px; /* 增加底部外边距，使个人信息区域与其他内容之间有更多空间 */
     background-color: rgba(255, 255, 255, 0.9); /* 半透明背景 */
     border-radius: 15px;
-    padding: 20px;
+    padding: 25px; /* 调整内边距，使内容显示更舒适 */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .photo-container {
-    margin-right: 10px;
+    margin-right: 15px; /* 调整右侧外边距，使照片与个人信息之间间距更合理 */
 }
 
 #profile-photo {
@@ -70,7 +70,7 @@ header h1 {
 }
 
 .info p {
-    margin-bottom: 10px;
+    margin-bottom: 12px; /* 调整底部外边距，使段落之间间距更舒适 */
     font-size: 14px;
 }
 
@@ -85,10 +85,10 @@ header h1 {
 
 /* 模块导航 */
 .module-nav {
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* 调整底部外边距，使导航与其他内容之间间距更合理 */
     background-color: rgba(255, 255, 255, 0.9); /* 半透明背景 */
     border-radius: 15px;
-    padding: 10px 20px;
+    padding: 15px 25px; /* 调整内边距，使导航显示更舒适 */
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -100,7 +100,7 @@ header h1 {
 .module-nav li {
     flex: 1;
     text-align: center;
-    padding: 10px 15px;
+    padding: 12px 18px; /* 调整内边距，使导航项显示更舒适 */
     cursor: pointer;
     border-radius: 10px;
     transition: all 0.3s ease;
@@ -126,9 +126,9 @@ header h1 {
     display: none;
     background-color: rgba(255, 255, 255, 0.9); /* 半透明背景 */
     border-radius: 15px;
-    padding: 20px;
+    padding: 25px; /* 调整内边距，使模块内容显示更舒适 */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* 调整底部外边距，使模块之间间距更合理 */
     animation: fadeIn 0.5s ease;
 }
 
@@ -143,9 +143,9 @@ header h1 {
 
 /* 模块头部 */
 .module-header {
-    margin-bottom: 15px;
+    margin-bottom: 20px; /* 调整底部外边距，使模块标题与内容之间间距更合理 */
     border-bottom: 2px solid #e48d22fb;
-    padding-bottom: 10px;
+    padding-bottom: 12px; /* 调整底部内边距，使模块标题显示更舒适 */
 }
 
 .module-header h3 {
@@ -165,8 +165,8 @@ header h1 {
 }
 
 .education-item, .experience-item {
-    margin-bottom: 20px;
-    padding-bottom: 15px;
+    margin-bottom: 25px; /* 调整底部外边距，使教育经历或工作经验项之间间距更舒适 */
+    padding-bottom: 18px; /* 调整底部内边距，使教育经历或工作经验项显示更舒适 */
     border-bottom: 1px dashed rgba(236, 240, 241, 0.7);
 }
 
@@ -184,7 +184,7 @@ header h1 {
 .skill-item {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 15px;
+    margin-bottom: 18px; /* 调整底部外边距，使技能项之间间距更舒适 */
 }
 
 .skill-item i {
