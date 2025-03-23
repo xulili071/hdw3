@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>许莉莉的个人主页</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>许莉莉</h1>
+            <p class="subtitle">很高兴你也那么爱比格，并且有自己的见解</p>
+        </header>
+        
+        <div class="profile">
+            <div class="photo-container">
+                <img src="mp.jpg" alt="许莉莉" id="profile-photo">
+            </div>
+            <div class="info">
+                <p><strong>个人简介:</strong> 许莉莉，生态学专业硕士研究生，研究方向为土壤氮磷循环。</p>
+                <p><strong>联系电话:</strong>13558326037</p>
+                <p><strong>邮箱:</strong> </a><a href="mailto:1065688331@qq.com" class="email-link">1065688331@qq.com</p>
+            </div>
+        </div>
+        
+        <nav class="module-nav">
+            <ul>
+                <li class="active" data-module="education"><i class="fas fa-graduation-cap"></i> 教育经历</li>
+                <li data-module="internship"><i class="fas fa-star"></i> 曾获荣誉</li>
+                <li data-module="skills"><i class="fas fa-briefcase"></i> 技能证书</li>
+                <li data-module="evaluation"><i class="fas fa-star"></i> 了解更多</li>
+            </ul>
+        </nav>
+        
+        <div class="resume-content">
+            <section id="education" class="module active">
+                <div class="module-header">
+                    <h3><i class="fas fa-graduation-cap"></i> 教育经历</h3>
+                </div>
+                <div class="module-body">
+                    <div class="education-item">
+                        <p>2024.09-至今 华中农业大学 生态学 理学硕士</p>
+                    </div>
+                    <div class="education-item">
+                        <p>2019.09-2023.06 华中农业大学 环境生态工程 工学学士</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="internship" class="module">
+                <div class="module-header">
+                    <h3><i class="fas fa-star"></i> 曾获荣誉</h3>
+                </div>
+                <div class="module-body">
+                    <div class="experience-item">
+                        <p>华中农业大学工学院减速器拆装大赛 三等奖</p>
+                     </div>
+                    <div class="experience-item">
+                        <p>华中农业大学资源与环境学院环境生态工程专业技能大赛 三等奖</p>
+                     </div>
+                </div>
+            </section>
+            
+            <section id="skills" class="module">
+                <div class="module-header">
+                    <h3><i class="fas fa-certificate"></i> 技能证书</h3>
+                </div>
+                <div class="module-body">
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <i class="fas fa-certificate"></i>
+                            <div class="skill-info">
+                                <p>CET-6</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-desktop"></i>
+                            <div class="skill-info">
+                                <p>计算机二级office应用证书</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <div class="skill-info">
+                                <p>C1驾驶证</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="evaluation" class="module">
+                <div class="module-header">
+                    <h3><i class="fas fa-star"></i> 了解更多</h3>
+                </div>
+                <div class="module-body">
+                    <p>已确诊ADHD一位，微瑕大脑持有者。</p>
+                    <p>比格狂热爱好者，保持愤怒！敢想敢做！大胆说话！非常能忍痛！</p>
+                    <p>希望我每天幸福。</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
