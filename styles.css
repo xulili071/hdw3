@@ -58,8 +58,8 @@ header h1 {
 }
 
 #profile-photo {
-    width: 150px;
-    height: 150px;
+    width: 225px;
+    height: 225px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #e48d22fb;
@@ -114,7 +114,7 @@ header h1 {
 }
 
 .module-nav li.active {
-    background-color: rgba(255, 222, 133, 0.858);
+    background-color: rgba(255, 237, 187);
     color: #493a22;
     font-weight: bold;
 }
