@@ -60,7 +60,7 @@ header h1 {
 #profile-photo {
     width: 225px;
     height: 225px;
-    border-radius: 25%;
+    border-radius: 12px;
     object-fit: cover;
     border: 2px solid #e48d22fb;
     margin: 0 auto; /* 确保头像在容器中居中 */
