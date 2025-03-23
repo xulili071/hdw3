@@ -110,12 +110,12 @@ header h1 {
 }
 
 .module-nav li:hover {
-    background-color: rgba(236, 240, 241, 0.7);
+    background-color: rgba(244, 244, 244, 0.7);
 }
 
 .module-nav li.active {
-    background-color: rgba(213, 245, 227, 0.7);
-    color: #27ae60;
+    background-color: rgba(255, 222, 133, 0.858);
+    color: #493a22;
     font-weight: bold;
 }
 
